@@ -1,5 +1,6 @@
 <!doctype html>
 
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -11,54 +12,72 @@
 
 </head>
 
-<body>
-    <div class="container about-page">
-     
-    About
+<body class="about">
 
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+  <header>
+      <nav>
+        <div class=.logo><img src=img\lambda-black.png></div>
+        <a href ="http://127.0.0.1:5500/index.html">Home</a>
+        <a href ="#">About</a>
+        <a href ="#">Products</a>
+        <a href ="#">Blog</a>
+        <a href ="#">Contact</a>
+      </nav>
+  </header>
+
+  <div class="building">
+    <img src= img\jumbo-about.png>
+
+  </div>
+
+  <section class="top-content">
+    <div class="textcont">
+    <h2>About</h2>
+    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+    </div>
+  </section>
 
 
+  <section class="middlecont">
+
+  <div class="one">
     <img src="img/about-plan.png" alt="strategy">
+    <h2>Strategy</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <button>Learn More</button>
+  </div>
     
-    Strategy
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 
-    Learn More
-
-
-
+  <div class="one">
     <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
+    <h2>How We Work</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <button>Learn More</button>
+    </div>
 
 
-
+    <div class="one">
     <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
+    <h2>Places We Work</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <button>Learn More</button>
+    </div>
 
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
+    <div class="one">
     <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+    <h2>Collaboration</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <button>Learn More</button>
+    </div>>
 
-    Learn More
+  </section>
 
-    Let's Work Together
+    <div class="together">
+    <h2>Let's Work Together</h2>
+    <p>  Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+  </div>
 
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
+  
       <footer>
         <nav>
           <a href="index.html">Home</a>
@@ -71,3 +90,92 @@
     </div><!-- container -->        
 </body>
 </html>
+
+
+
+
+
+
+<!-- CSS -->
+<style>
+
+body{}
+
+.building{
+display:flex;
+    justify-content: center;
+}
+
+.top-content{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+
+.textcont{
+  width: 40%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+}
+.one{
+  padding-right: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  width:40%;
+}
+
+.middlecont {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border:red solid 1px;
+}
+
+.one {
+    padding-right: 0%;
+   
+}
+
+
+
+
+
+
+body .index {
+	line-height: 1;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+
+
+
+  
+</style>
