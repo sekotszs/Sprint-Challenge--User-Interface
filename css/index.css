@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body .index {
 	line-height: 1;
 }
 ol, ul {
@@ -271,3 +271,35 @@ footer nav a {
 .box10{
     background-color:dodgerblue ;
 }
+
+.roadpic{
+    display:flex;
+    justify-content: center;
+}
+
+.logo img{
+   display:flex;
+   justify-content: center;
+   width:20%
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 97%;
+}
+
+nav a{
+    color: grey;
+    text-decoration: none;
+    padding:5px;
+    font-size: 15px;
+}
+header{
+    width:800px;
+    margin-left: 600px;
+    padding-top: 30px;   
+
+}
+
+/*just copy the link to the stylesheet in the head of the index fole over to the services file.*/
