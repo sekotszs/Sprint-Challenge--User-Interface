@@ -1,5 +1,6 @@
 <!doctype html>
 
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -11,56 +12,75 @@
 
 </head>
 
-<body>
-    <div class="container about-page">
-     
-    About
 
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+<body class="about">
+
+  <header>
+      <nav>
+        <div class=.logo><img src=img\lambda-black.png></div>
+        <a href ="http://127.0.0.1:5500/index.html">Home</a>
+        <a href ="#">About</a>
+        <a href ="#">Products</a>
+        <a href ="#">Blog</a>
+        <a href ="#">Contact</a>
+      </nav>
+  </header>
+
+  <div class="building">
+    <img src= img\jumbo-about.png>
+
+  </div>
+
+  <section class="top-content">
+    <div class="textcont">
+    <h2>About</h2>
+    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+    </div>
+  </section>
 
 
+  <section class="middlecont">
+
+  <div class="one">
     <img src="img/about-plan.png" alt="strategy">
+    <h2>Strategy</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <a href="#">Learn More</a>
+  </div>
     
-    Strategy
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 
-    Learn More
-
-
-
+  <div class="one">
     <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
+    <h2>How We Work</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <a href="#">Learn More</a>
+    </div>
 
 
-
+    <div class="one">
     <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
+    <h2>Places We Work</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <a href="#">Learn More</a>
+    </div>
 
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
+    <div class="one">
     <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+    <h2>Collaboration</h2>
+    <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+    <a href="#">Learn More</a>
+    </div>
 
-    Learn More
+  </section>
 
-    Let's Work Together
+    <div class="together">
+    <h2>Let's Work Together</h2>
+    <p>  Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+  </div>
 
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
+  
       <footer>
-        <nav>
+        <nav >
           <a href="index.html">Home</a>
           <a href="#">About</a>
           <a href="#">Products</a>
@@ -70,4 +90,143 @@
       </footer>
     </div><!-- container -->        
 </body>
+
+
 </html>
+
+
+
+
+
+
+<!-- CSS -->
+<style>
+
+body .about {
+  line-height: 1;
+  width:100%
+}
+
+body{
+  width:900px;
+  margin: auto;
+  padding: 10px;
+
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+.building{
+display:flex;
+    justify-content: center;
+}
+
+.top-content{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+    
+}
+
+.top-content p{
+
+  width:800px;
+  display: flex;
+  justify-content:center;
+}
+
+
+
+.textcont{
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+  
+
+.middlecont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    
+}
+
+
+
+header{
+  
+  display:flex;
+  justify-content: center;
+  margin-left: 30px
+}
+nav{
+  display:flex ;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+nav a{
+width:200px
+  
+}
+
+ .middlecont{
+  display:flex;
+  justify-content:space-around;
+ }
+
+ .one{
+  text-align:center;
+  width:48%;
+  border-bottom: black 1px dotted;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+ }
+
+.one p{
+  text-align:justify;
+  margin-bottom: 30px;
+}
+
+.middlecont a{
+  width:100%;
+  background-color:white;
+  color:black;
+  padding: 10px 25px;
+  border: 3px solid black;
+  margin-bottom:55px;
+  border-radius: 10px;
+  margin-right:200px;
+  
+ 
+
+}
+
+
+
+  
+</style>
